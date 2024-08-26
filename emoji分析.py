@@ -1,15 +1,7 @@
-import pandas as pa
 import pandas as pd
-import plotly.graph_objects as go
-import plotly.express as px
-from plotly.subplots import make_subplots
-from sklearn.preprocessing import LabelEncoder,StandardScaler
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
-import seaborn as sns
-import matplotlib.pyplot as plt
-import numpy as np
-
+from sklearn.preprocessing import LabelEncoder, StandardScaler
 
 file_path = 'emoji_usage_dataset.csv'
 data = pd.read_csv(file_path)
@@ -53,12 +45,3 @@ kmeans = KMeans(n_clusters=3,random_state=0)
 data['Cluster'] = kmeans.fit_predict(features_pca)
 
 print(data[['Cluster', 'Context', 'Platform', 'User Age', 'User Gender']].head())
-
-#         Cluster  Context  Platform  User Age  User Gender
-# 0        2        0         2        34            1
-# 1        1        6         1        23            1
-# 2        2        0         2        38            1
-# 3        1        2         0        51            1
-# 4        1        1         2        43            0
-
-
