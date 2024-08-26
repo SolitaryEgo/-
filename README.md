@@ -1,3 +1,7 @@
+# Emoji表情使用趋势分析
+
+!(https://github.com/SolitaryEgo/-/blob/main/siavas83nm.png)
+
 # 数据说明
 ## 字段	 |  说明
 
