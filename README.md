@@ -52,9 +52,10 @@ up主标签
 “`
 弹幕数
 “`  
-
-test | test | test
-test | test | test
-test | test | test
+|-----|----------------|
+test | test | test |
+test | test | test |
+test | test | test |
+|-----|----------------|
 
 >数据来源：[和鲸社区](https://www.heywhale.com/mw/dataset/6276783653f7db0017335a21/content)
