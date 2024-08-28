@@ -1,24 +1,56 @@
-# Emoji表情使用趋势分析
+# B站综合榜单up数据分析
 
-![Emoji](https://github.com/SolitaryEgo/-/blob/main/siavas83nm.png)
 
 ## 数据说明
-### 字段	 |  说明
+### 字段	
 
 “`
-Emoji | 代表在社交媒体互动中使用的特定表情符号。
+榜单类型 
 “`  
 “`
-Context | 表情符号对应的情境或情感类型（例如：幽默、爱、快乐）。
+创作领域 
 “`  
 “`
-Platform | 指使用该表情符号的社交媒体平台（例如：Facebook、Instagram、Twitter）。
+时间 
 “`  
 “`
-User Age | 使用该表情符号的用户的年龄，范围从13岁 - 65岁。
+投币数	
 “`  
 “`
-User Gender | 使用该表情符号的用户的性别（男性或女性）。
+涨粉数	
+“`  
+“`
+等级
+“`  
+“`
+获赞数
+“`  
+“`
+mid
+“`  
+“`
+up主
+“`  
+“`
+up主标签
+“`  
+“`
+投稿视频数
+“`  
+“`
+播放数
+“`  
+“`
+排名
+“`  
+“`
+性别
+“`  
+“`
+类型
+“`  
+“`
+弹幕数
 “`  
 
->数据来源：[和鲸社区](https://www.heywhale.com/mw/dataset/66bef4db9b33c0f19c7a1c8c)
+>数据来源：[和鲸社区](https://www.heywhale.com/mw/dataset/6276783653f7db0017335a21/content)
